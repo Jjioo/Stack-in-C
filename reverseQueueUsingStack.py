@@ -110,7 +110,22 @@ void reverse(Stack* S ,queue* q){
     while(!empty_(S)){
     add(q,pop_(S));}
 }
+/* Recursive
 
+void reverse(Stack* S ,queue* q){
+ if(empty(q)){
+    while (!empty_(S)) {
+         add(q, pop_(S));
+      }
+      return;
+ }   
+
+add_(S, pop(q));
+reverse(S ,q);
+
+}
+
+*/
 
 
 
